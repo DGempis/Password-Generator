@@ -1,0 +1,142 @@
+body {
+    background-color: lightgray;
+}
+
+.generator-container {
+    background: #1F2937;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    left: 62px;
+    top: 62px;
+}
+
+.header {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-family: 'Karla';
+    font-style: ExtraBold;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    vertical-align: top;
+    letter-spacing: -2.5%;
+}   
+
+.secondLine{
+    color: #4ADF86;   
+}
+
+.motto-log{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    line-height: 28px;
+    vertical-align: top;
+    color: #D5D4D8;
+}
+
+.generate-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    background-color: #10B981;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.clear-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 290px;
+    top: 284px;
+    background-color: #10B981;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.generate-btn,
+.clear-btn:hover {
+    cursor: pointer;
+}
+
+.line26{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+    border: 1px solid #2F3E53;
+}
+
+.passwordOne {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.passwordTwo {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.passwordOne,
+.passwordTwo:hover {
+    cursor: pointer;
+}
